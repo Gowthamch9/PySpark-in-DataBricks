@@ -58,5 +58,3 @@ df = spark.createDataFrame(data, schema)
 df.show()
 df.fillna('unkown').show()
 df.na.fill('unkown', ['dep']).show()
-country_sales.show(10)
-
